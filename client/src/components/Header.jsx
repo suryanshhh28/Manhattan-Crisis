@@ -26,9 +26,11 @@ const Header = () => {
               Emergency
             </li>
           </Link>
-          <li className="hover:text-orange-500 transition duration-300 cursor-pointer ">
-            Contact
-          </li>
+          <Link to="/contactus">
+            <li className="hover:text-orange-500 transition duration-300 cursor-pointer ">
+              Contact
+            </li>
+          </Link>
           <Link to="/donate">
             <li className="hover:text-orange-500 transition duration-300 cursor-pointer">
               Donate

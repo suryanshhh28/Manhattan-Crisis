@@ -10,15 +10,7 @@ const Footer = () => {
           <span className=" italic">d</span>o<span className=" italic">n</span>a
           <span className=" italic">t</span>e
         </h1>
-        <p className="lg:m-2 text-white text-center font-bold font-poppins  border-white sm:text-lg lg:text-xl">
-          manhattancrisis@gmail.com
-        </p>
-        <p className="lg:m-2 text-white text-center font-bold font-poppins  border-white sm:text-lg lg:text-xl">
-          +1889-778-232
-        </p>
-        <p className="lg:m-2 text-white text-center font-bold font-poppins  border-white sm:text-lg lg:text-xl">
-          45, 6th Street, Manhattan, NYC
-        </p>
+        
       </div>
 
       <div className="">
