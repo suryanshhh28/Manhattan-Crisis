@@ -1,6 +1,13 @@
 import React from "react";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+// import dotenv from "dotenv";
+
+// dotenv.config();
+
+// ${process.env.EMAIL_SERVICE}
+// ${process.env.EMAIL_TEMPLATE}
+// ${process.env.EMAIL_PUBLIC_KEY}
 
 const Contact = () => {
   const form = useRef();
@@ -10,10 +17,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_pntpl6i",
-        "template_s8kcsix",
+        ``,
+        ``,
         form.current,
-        "XEhmrrjLJ6XLvOKH6"
+        ``
       )
       .then(
         (result) => {
