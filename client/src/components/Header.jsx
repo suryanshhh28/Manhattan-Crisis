@@ -12,7 +12,7 @@ const Header = () => {
           Mh
           <GiArson color="rgb(249,115,22)" />
         </h1>
-        <ul className="flex space-x-8">
+        <ul className="flex space-x-8 text-sm sm:text-lg">
           <Link to="/">
             <li className="hover:text-orange-500 transition duration-300 cursor-pointer">
               Home

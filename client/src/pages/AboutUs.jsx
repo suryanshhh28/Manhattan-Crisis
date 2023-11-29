@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="xl:flex xl:flex-row">
         <div className="xl:my-auto">
           <h1 className=" text-7xl font-poppins font-bold xl:text-8xl">
-            About <span className=" text-orange-500">Us</span>
+            What Are <span className=" text-orange-500">We?</span>
           </h1>
           <p className=" font-poppins my-5 tracking-wider text-lg ">
             In the face of adversity, solidarity becomes our greatest strength.
